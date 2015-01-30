@@ -36,10 +36,9 @@ pdate {
   color:#a2a2a2;
 }
 
-logo {
+logo img {
   display:block;
   padding:10px 0 60px 50px;
   height:38px;
   width:175px;
-  content: url("../images/Edible-Logo.png");
 }
