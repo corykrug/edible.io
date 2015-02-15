@@ -2,27 +2,29 @@
 @import url(http://fonts.googleapis.com/css?family=Fjord+One);
 
 body {
-  padding:0px 50px 50px 180px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#000;
   font-weight:300;
   background-color: #efefef;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width:480px;
+}
+
 pt {
-  padding:0 0 0 50px;
   font:24px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-/*  font-weight:300; */
 }
 
 post {
   display:block;
-  padding:20px 0 0 50px;
+  padding:20px 0 0 0;
   font:18px/1.5 Fjord, "Georgia", serif;
   width:480px;
   text-align:justify;
   font-weight:300;
-  /*color:#303030;*/
 }
 
 .quote {
@@ -31,14 +33,13 @@ post {
 
 pdate {
   display:block;
-  padding:0 0 0 50px;
   font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#a2a2a2;
 }
 
 logo img {
   display:block;
-  padding:10px 0 60px 50px;
+  padding:10px 0 60px 0;
   height:38px;
   width:175px;
 }
